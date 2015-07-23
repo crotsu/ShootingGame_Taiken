@@ -1,5 +1,5 @@
 .DS_Store
-*/build/
+*build/
 applet
 application.linux32
 application.linux64
