@@ -1,9 +1,10 @@
-int shipX;
-int shipY;
-size(480, 640);
-rect(350, 120, 70, 100);
+int shipX; // 自機のx座標の変数を宣言
+int shipY; // 自機のy座標の変数を宣言
 
-shipX = 215;
-shipY = 500;
-rect(shipX, shipY, 50, 50);
+size(480, 640); // ウィンドウのサイズを480x640に設定
+
+shipX = 215; // 自機のx座標
+shipY = 500; // 自機のy座標
+
+rect(shipX, shipY, 50, 50); // 自機として座標(215, 500)に大きさ50x50の正方形を表示
 

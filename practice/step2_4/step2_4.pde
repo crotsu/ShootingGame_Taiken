@@ -1,2 +1,5 @@
-rect(70, 80, 50, 50);
+PImage shipImg;
+imageMode(CENTER);
+shipImg = loadImage("ship.png");
+image(shipImg, 90, 80);
 
