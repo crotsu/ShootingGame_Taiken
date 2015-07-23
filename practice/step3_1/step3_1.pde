@@ -1,6 +1,9 @@
-PImage img; //画像を格納する変数
+int shipX;
+int shipY;
+size(480, 640);
+rect(350, 120, 70, 100);
 
-size(480, 640); //ウィンドウの大きさ．横(x方向)が480，縦(y方向)が640
-img = loadImage("ship.png"); //Dataフォルダにあるship.png画像を読み込む．
+shipX = 215;
+shipY = 500;
+rect(shipX, shipY, 50, 50);
 
-image(img, 0, 0); //画像を座標(0,0)に出力する．画像の左上が座標(0, 0)にくる．
