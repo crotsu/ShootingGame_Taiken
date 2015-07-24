@@ -1,4 +1,6 @@
+rectMode(CENTER);
 size(480, 640);
-rect(350, 120, 70, 100);
-rect(215, 500, 50, 50);
+int len;
+len = 70;
+rect(0, 0, len, len);
 

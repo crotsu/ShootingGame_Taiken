@@ -1,5 +1,3 @@
-PImage shipImg;
-imageMode(CENTER);
-shipImg = loadImage("ship.png");
-image(shipImg, 90, 80);
-
+int size;
+size = 50;
+rect(10, 20, size, size);

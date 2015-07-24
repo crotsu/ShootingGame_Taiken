@@ -70,7 +70,6 @@ void draw() {
   if (laserAlive == 1) {
     image(laserImg, laserX, laserY);  
     laserY = laserY - 10;
-    laserX = laserX + (int)random(10)-5;
   }
   // レーザーが画面の外に出たら，レーザーを消す
   if (laserY<0) {
